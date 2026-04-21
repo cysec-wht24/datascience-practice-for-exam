@@ -13,5 +13,12 @@ df['qcut'] = pd.qcut(df['score'], q=2, labels=['Low','High'])
 
 print(df)
 
+# binning = discretization 
+# Why Use Binning?
+# -> Simplifies data
+# -> Helps in analysis & visualization
+# -> Reduces noise
+# -> Useful in machine learning 
+
 # pd.cut()  → equal-width  (same range per bin)
 # pd.qcut() → equal-freq   (same count per bin)

@@ -7,7 +7,9 @@ df = pd.DataFrame({
     'score':[10, 20, 30, 40]
 })
 
-# a) CLASSING - age groups using pd.cut
+# a) CLASSING - age groups using pd.cut - aka categorization or data binning
+# -> involves converting continuous numerical data into discrete categories or groups.
+# -> Useful for grouping ages, income brackets, or performance scores into manageable categories for analysis or visualization
 df['age_group'] = pd.cut(df['age'],
                           bins=[0, 20, 40, 60, 100],
                           labels=['Child','Young','Adult','Senior'])
