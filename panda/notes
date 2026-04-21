@@ -1,0 +1,14 @@
+What each file you made does:
+
+| File              | What it does                              | One line                  |
+|-------------------|-------------------------------------------|---------------------------|
+| 01wrangling       | Clean, Transform, Merge, Reshape          | The whole process overview|
+| 02comb&merging    | pd.merge, concat, combine_first           | Joining tables like SQL   |
+| 03reshape         | stack, unstack, pivot, melt               | Rotating data Wide↔Long   |
+| 04cleaningdata    | dropna, fillna                            | Handle missing values     |
+| 05transform       | duplicates, map, replace, rename, binning | Fix and convert data      |
+| 06summarize       | head, tail, info, describe                | Quick look at data        |
+| 07binning         | pd.cut, pd.qcut                           | Group numbers into buckets|
+| 08class&standard  | pd.cut, Z-score, StandardScaler           | Categorize + normalize    |
+| 09noise&anomalies | IQR, zscore, rolling, condition           | Find bad/weird data       |
+| 10stringmanipu    | split, regex, str.contains                | Clean text data           |
